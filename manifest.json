@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "PROJECT NAME",
-  "description": "PROJECT DESCRIPTION",
+  "name": "Maliyas Extension",
+  "description": "attempt at browser extension",
   "version": "0.1",
   "content_scripts": [
     {
@@ -12,7 +12,10 @@
       "js": [
         "content.js"
       ],
-      "run_at": "document_end"
+      "run_at": "document_idle"
     }
-  ]
+  ],
+  "icons": {
+   "128": "images/icon.jpg"
+  }
 }
